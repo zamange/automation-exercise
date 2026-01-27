@@ -1,0 +1,15 @@
+C:\Users\zamagcin\GitHubProjects\automation-exercise\bin\Debug\net10.0\automation-exercise.exe
+C:\Users\zamagcin\GitHubProjects\automation-exercise\bin\Debug\net10.0\automation-exercise.deps.json
+C:\Users\zamagcin\GitHubProjects\automation-exercise\bin\Debug\net10.0\automation-exercise.runtimeconfig.json
+C:\Users\zamagcin\GitHubProjects\automation-exercise\bin\Debug\net10.0\automation-exercise.dll
+C:\Users\zamagcin\GitHubProjects\automation-exercise\bin\Debug\net10.0\automation-exercise.pdb
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\automation-exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\automation-exercise.AssemblyInfoInputs.cache
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\automation-exercise.AssemblyInfo.cs
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\automation-exercise.csproj.CoreCompileInputs.cache
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\automation-exercise.sourcelink.json
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\automation-exercise.dll
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\refint\automation-exercise.dll
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\automation-exercise.pdb
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\automation-exercise.genruntimeconfig.cache
+C:\Users\zamagcin\GitHubProjects\automation-exercise\obj\Debug\net10.0\ref\automation-exercise.dll
