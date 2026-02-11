@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3CZZTSK9ubA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zamagcin\\GitHubProjects\\automation-exercise\\automation-exercise.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zamagcin\\.nuget\\packages\\selenium.webdriver\\4.39.0\\selenium.webdriver.4.39.0.nupkg.sha512",
+    "C:\\Users\\zamagcin\\.nuget\\packages\\selenium.webdriver.chromedriver\\143.0.7499.19200\\selenium.webdriver.chromedriver.143.0.7499.19200.nupkg.sha512"
+  ],
+  "logs": []
+}
