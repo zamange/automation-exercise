@@ -8,6 +8,7 @@ namespace pages
         private IWebDriver driver;
         // IWebDriver driver = DriverFactory.ReturnDriver();
         private By signupButton = By.CssSelector("a[href='/login']");
+        private By homePageIcon = By.XPath("//a[contains(text(),'Home')]");
 
 
         public HomePage(IWebDriver driver)
@@ -24,5 +25,10 @@ namespace pages
         {
             driver.FindElement(signupButton).Click();
         }
+        public bool VerifyHomeIcon()
+        {
+            return driver.FindElement(homePageIcon).Displayed;
+        }
+
     }
 }

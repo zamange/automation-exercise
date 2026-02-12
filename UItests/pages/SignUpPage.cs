@@ -4,7 +4,7 @@ using pages;
 
 namespace pages
 {
-    public class LoginPage
+    public class SignUpPage
     {
         private IWebDriver driver;
 
