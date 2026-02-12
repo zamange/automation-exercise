@@ -29,6 +29,12 @@ namespace StepDefinitions
             homePage.VerifyHomeIcon();
         }
 
+        [When("I click the signup/login button")]
+        public void LoginSgnUpButtonClick()
+        {
+            homePage.ClickSignUp();
+        }
+
         
     }
 }

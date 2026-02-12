@@ -1,7 +1,7 @@
 Feature: Register Page
 
 Scenario Outline: Register a user
-Given I open the home page
+  Given I open the home page
   When I click the signup/login button
   Then I should see the signup/login page
   And I should see New User Signup is visible
