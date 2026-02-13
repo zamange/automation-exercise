@@ -99,9 +99,6 @@ this.ScenarioInitialize(scenarioInfo);
 #line 6
   testRunner.Then("I should see the home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 7
-  testRunner.When("I click the signup/login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
             }
             this.ScenarioCleanup();
         }
