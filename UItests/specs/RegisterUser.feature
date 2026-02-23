@@ -8,10 +8,11 @@ Scenario Outline: Register a user
   When I enter the name and email address
   Then I click the signup button
   Then I should see ENTER ACCOUNT INFORMATION
-  When I fill details <Title> , <Name> , <Email> , <Password> , <DateOfBirth>
+  When I fill details <Title> , <Name> , <Email> , <Password> , <Day> , <Month> , <Year>
+
 Examples:
-  |  Title  |  Name  |  Email                        |  Password  |  DateOfBirth  |
-  |  Title1 |  User  |  userfirsttestuser@gmail.com  | password   |  01/01/2001  |
+| Title  | Name | Email                       | Password | Day | Month | Year |
+| Title1 | User | userfirsttestuser@gmail.com | password | 1   | January | 2001 |
   
   Then I select checkbox "sign up for our newsletter!"
   And I select checkbox "Receive special offers from our partners"
