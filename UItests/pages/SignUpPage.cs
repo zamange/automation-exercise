@@ -7,7 +7,9 @@ namespace pages
     public class SignUpPage
     {
         private IWebDriver driver;
-        private By signUpPage = By.XPath("//a[contains(text(),'Signup')]");        private By newUserText = By.XPath("//h2[text()='New User Signup!']");
+        private By signupLoginButton = By.CssSelector("a[href='/login']");
+        private By signUpPage = By.XPath("//a[contains(text(),'Signup')]");
+        private By newUserText = By.XPath("//h2[text()='New User Signup!']");
 
         private By nameInput = By.Name("name");
 
@@ -52,20 +54,52 @@ namespace pages
             this.driver = driver;
         }
 
+        public void ClickSignUpLogin()
+        {
+            driver.FindElement(signupLoginButton).Click();
+        }
+
+
+        public bool VerifySignUpPage()
+        {
+            return driver.FindElement(signUpPage).Displayed;
+        }
+
+        public bool VerifyNewUserText()
+        {
+            return driver.FindElement(newUserText).Displayed;
+        }
+
+        public void EnterNameAndEmail(string name, string email)
+        {
+            driver.FindElement(nameInput).SendKeys(name);
+            driver.FindElement(emailInput).SendKeys(email);
+        }
         public void ClickSignUp()
         {
             driver.FindElement(signUpButton).Click();
         }
 
-        public bool VerifySignUpPage()
+        public bool VerifyAccountInfoText()
         {
-            return driver.FindElement(homePageIcon).Displayed;
+            return driver.FindElement(accountInfo).Displayed;
+        }
+
+        public void PopulateAccountInfo(string title, string name, string email, string password, string day, string month, string year)
+        {
+            driver.FindElement(nameInput).SendKeys(title);
+            driver.FindElement(userName).SendKeys(name);
+            driver.FindElement(userEmail).SendKeys(email);
+            driver.FindElement(userPassword).SendKeys(password);
+            driver.FindElement(nameInput).SendKeys(day);
+            driver.FindElement(emailInput).SendKeys(month);
+            driver.FindElement(emailInput).SendKeys(year);
         }
         
-        
 
 
 
+                
         
     }
 }
